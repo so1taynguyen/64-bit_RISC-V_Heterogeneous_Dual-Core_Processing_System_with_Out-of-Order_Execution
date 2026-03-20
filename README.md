@@ -48,6 +48,12 @@
 This graduation thesis presents a complete __RISC-V 64-bit SoC__ integrating a RV64IM integer CPU core and an independent RV64D double-precision FPU coprocessor. The FPU operates in parallel with the CPU using the Tomasulo algorithm (Reservation Stations, Register Renaming, Reorder Buffer) to enable true out-of-order execution, significantly reducing pipeline stalls and improving performance on floating-point workloads.
 The system also includes a Memory Management Unit (MMU), L1 instruction and data caches, and AXI4 interconnect for memory consistency and scalability. The design fully supports IEEE-754 double-precision arithmetic and has been verified with a parallel reference-model testbench.
 
+Special thanks to [Nguyễn Nhật Tân](https://www.instagram.com/ignhattn) for his dedicated collaboration throughout this thesis. His invaluable contributions to the FPU pipeline, Tomasulo dispatch unit, hazard handling, and overall system integration were essential to the successful completion of the project.
+
+We are also deeply grateful to Nguyễn Trường Phú (https://github.com/NTP17), whose open-source RV32I pipeline served as the foundational foundation. We inherited and extended his CPU core to build the RV64IM integer pipeline in this thesis. Without his solid base, this work would not have been possible.
+
+Additionally, we sincerely thank Taner Öksüz (https://github.com/taneroksuz) for his open-source FPU implementation, which provided the core base for our floating-point ALU (FP ALU). Without his solid foundation in IEEE-754 compliant arithmetic units, the development of our RV64D FPU would have been significantly more difficult.
+
 <p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
 
