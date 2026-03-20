@@ -10,11 +10,11 @@ The pipeline supports the full RV64I base ISA plus the M extension (multiply/div
 
 ## Architecture Overview
 
-![cpu_architect](../../images/cpu_architect.png)
+![cpu_architect](../images/cpu_architect.png)
 
 - Bridge architecture for communication between CPU & FPU
 
-   ![bridge](../../images/bridge.png)
+   ![bridge](../images/bridge.png)
 
 ## Pipeline Stages
 
