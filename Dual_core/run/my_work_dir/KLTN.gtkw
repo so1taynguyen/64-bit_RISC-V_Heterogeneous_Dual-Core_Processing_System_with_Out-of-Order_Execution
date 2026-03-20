@@ -1,0 +1,115 @@
+[*]
+[*] GTKWave Analyzer v3.3.116 (w)1999-2023 BSI
+[*] Thu Jan  8 10:36:14 2026
+[*]
+[dumpfile] "/LinKK_and_friends/GPU/NVL/KLTN/Dual_core/run/my_work_dir/dump.vcd"
+[dumpfile_mtime] "Thu Jan  8 09:44:51 2026"
+[dumpfile_size] 10305895
+[savefile] "/LinKK_and_friends/GPU/NVL/KLTN/Dual_core/run/my_work_dir/KLTN.gtkw"
+[timestart] 0
+[size] 1854 1001
+[pos] -1 -1
+*-16.403423 53700 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] dual_testbench.
+[treeopen] dual_testbench.DUT.
+[treeopen] dual_testbench.DUT.dual_core_inst.
+[treeopen] dual_testbench.DUT.dual_core_inst.dual_core.
+[treeopen] dual_testbench.DUT.dual_core_inst.dual_core.CPU.dispatcher.
+[treeopen] dual_testbench.DUT.dual_core_inst.dual_core.FPU.fp_alu.
+[treeopen] dual_testbench.DUT.dual_core_inst.dual_core.MMU.
+[treeopen] dual_testbench.DUT.dual_core_inst.dual_core.MMU.D_Cache.
+[treeopen] dual_testbench.DUT.sdram_inst.
+[sst_width] 40
+[signals_width] 318
+[sst_expanded] 0
+[sst_vpaned_height] 344
+@28
+dual_testbench.DUT.clk
+dual_testbench.DUT.dual_core_inst.dual_core.rst_n
+@200
+-CORE INTF
+@28
+dual_testbench.DUT.dual_core_inst.dual_core.core_clk
+@24
+dual_testbench.DUT.dual_core_inst.dual_core.core_clock_counter[63:0]
+@820
+dual_testbench.DUT.dual_core_inst.dual_core.CPU.command[63:0]
+@200
+-I-mem MMU
+@22
+[color] 7
+dual_testbench.DUT.dual_core_inst.dual_core.MMU.i_cpu_addr[31:0]
+@28
+[color] 7
+dual_testbench.DUT.dual_core_inst.dual_core.MMU.i_cpu_ready
+@22
+[color] 7
+dual_testbench.DUT.dual_core_inst.dual_core.MMU.i_cpu_rdata[31:0]
+@200
+-Dispatch_Unit
+@22
+[color] 5
+dual_testbench.DUT.dual_core_inst.dual_core.CPU.dispatcher.instr_f[31:0]
+[color] 5
+dual_testbench.DUT.dual_core_inst.dual_core.CPU.dispatcher.instr_CPU[31:0]
+[color] 5
+dual_testbench.DUT.dual_core_inst.dual_core.CPU.dispatcher.instr_FPU[31:0]
+@200
+-CPU
+@22
+[color] 2
+dual_testbench.DUT.dual_core_inst.dual_core.CPU.pc2cache_o[31:0]
+[color] 2
+dual_testbench.DUT.dual_core_inst.dual_core.CPU.cache_instr_i[31:0]
+[color] 2
+dual_testbench.DUT.dual_core_inst.dual_core.CPU.instrD[31:0]
+@420
+[color] 2
+dual_testbench.DUT.dual_core_inst.dual_core.CPU.rf.registers[0][1][63:0]
+[color] 2
+dual_testbench.DUT.dual_core_inst.dual_core.CPU.rf.registers[0][2][63:0]
+[color] 2
+dual_testbench.DUT.dual_core_inst.dual_core.CPU.rf.registers[0][3][63:0]
+[color] 2
+dual_testbench.DUT.dual_core_inst.dual_core.CPU.rf.registers[0][4][63:0]
+@421
+[color] 2
+dual_testbench.DUT.dual_core_inst.dual_core.CPU.rf.registers[0][5][63:0]
+@420
+[color] 2
+dual_testbench.DUT.dual_core_inst.dual_core.CPU.rf.registers[0][6][63:0]
+@200
+-FPU
+@22
+[color] 6
+dual_testbench.DUT.dual_core_inst.dual_core.FPU.instr[31:0]
+@40020
+[color] 6
+dual_testbench.DUT.dual_core_inst.dual_core.FPU.fp_regfile.regs[0][1][63:0]
+[color] 6
+dual_testbench.DUT.dual_core_inst.dual_core.FPU.fp_regfile.regs[0][2][63:0]
+[color] 6
+dual_testbench.DUT.dual_core_inst.dual_core.FPU.fp_regfile.regs[0][3][63:0]
+[color] 6
+dual_testbench.DUT.dual_core_inst.dual_core.FPU.fp_regfile.regs[0][4][63:0]
+[color] 6
+dual_testbench.DUT.dual_core_inst.dual_core.FPU.fp_regfile.regs[0][5][63:0]
+@200
+-D-mem MMU
+@22
+dual_testbench.DUT.dual_core_inst.dual_core.MMU.D_Cache.d_data_array.data[0][0][255:0]
+dual_testbench.DUT.dual_core_inst.dual_core.MMU.D_Cache.d_data_array.data[1][0][255:0]
+dual_testbench.DUT.dual_core_inst.dual_core.MMU.D_Cache.d_data_array.data[2][0][255:0]
+dual_testbench.DUT.dual_core_inst.dual_core.MMU.D_Cache.d_data_array.data[3][0][255:0]
+dual_testbench.DUT.dual_core_inst.dual_core.MMU.D_Cache.d_data_array.data[4][0][255:0]
+dual_testbench.DUT.dual_core_inst.dual_core.MMU.D_Cache.d_data_array.data[6][0][255:0]
+dual_testbench.DUT.dual_core_inst.dual_core.MMU.D_Cache.d_data_array.data[8][0][255:0]
+dual_testbench.DUT.dual_core_inst.dual_core.MMU.D_Cache.d_data_array.data[14][0][255:0]
+dual_testbench.DUT.dual_core_inst.dual_core.MMU.D_Cache.d_data_array.data[16][0][255:0]
+dual_testbench.DUT.dual_core_inst.dual_core.MMU.D_Cache.d_data_array.data[10][1][255:0]
+dual_testbench.DUT.dual_core_inst.dual_core.MMU.D_Cache.d_data_array.data[11][0][255:0]
+dual_testbench.DUT.dual_core_inst.dual_core.MMU.D_Cache.d_data_array.data[11][1][255:0]
+dual_testbench.DUT.dual_core_inst.dual_core.MMU.D_Cache.d_data_array.data[12][0][255:0]
+dual_testbench.DUT.dual_core_inst.dual_core.MMU.D_Cache.d_data_array.data[12][1][255:0]
+[pattern_trace] 1
+[pattern_trace] 0

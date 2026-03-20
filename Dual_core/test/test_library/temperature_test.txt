@@ -1,0 +1,28 @@
+# Problem 1: Covert from Celcius to Fahrenheit
+
+addi x1, x0, 36         # User input Celcius temperature
+fcvt.d.l f1, x1         # Convert to floating point number
+
+addi x2, x0, 9
+fcvt.d.l f2, x2
+addi x2, x0, 5
+fcvt.d.l f3, x2
+fdiv.d f2, f2, f3       # Calculate f2 = 9/5
+addi x2, x0, 32
+fcvt.d.l f3, x2         # Calculate f3 = 32
+fmadd.d f1, f2, f1, f3  # Fahrenheit = 9/5*Celcius+32
+fsd f1, 0(x0)           # Store data to mem[0], expected result: 96.8 F
+
+# Problem 2: Covert from Fahrenheit to Celcius
+
+fadd.d f1, f1, f0       # Use data from problem 1
+addi x1, x0, 10
+fcvt.d.l f10, x1        # Assign f10 = 10
+fadd.d f1, f1, f10      # Randomly add 96.8 + 10
+fsub.d f1, f1, f3       # Calculate Fahrenheit - 32
+addi x1, x0, 1
+fcvt.d.l f3, x1         # Assign f3 = 1
+fdiv.d f4, f3, f2       # Calculate 1 divided by 9/5
+fmul.d f1, f1, f4       # Celcius = 5/9*(Fahrenheit-32)
+fcvt.l.d x1, f1         # Covert data to x1, expected result (RDN): 41 C
+sd x1, 1(x0)            # Store data to mem[1]

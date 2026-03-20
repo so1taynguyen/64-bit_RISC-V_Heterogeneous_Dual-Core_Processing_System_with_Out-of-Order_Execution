@@ -1,0 +1,14 @@
+# Problem 1: Covert from Celcius to Fahrenheit
+
+addi x1, x0, 42         # User input Celcius temperature
+fcvt.d.l f1, x1         # Convert to floating point number
+
+addi x2, x0, 9
+fcvt.d.l f2, x2
+addi x2, x0, 5
+fcvt.d.l f3, x2
+fdiv.d f2, f2, f3       # Calculate f2 = 9/5
+addi x2, x0, 32
+fcvt.d.l f3, x2         # Calculate f3 = 32
+fmadd.d f1, f2, f1, f3  # Fahrenheit = 9/5*Celcius+32
+fsd f1, 0(x0)           # Store data to mem[0], expected result: 96.8 F

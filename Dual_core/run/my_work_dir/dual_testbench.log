@@ -1,0 +1,210 @@
+LINE=   71 TIME=          0	There are 11 instructions in this simulation
+
+LINE=   29 TIME=      20000	program counter = 'h0 - Instruction: 'h02a00093
+LINE=   29 TIME=      20000	program counter = 'h4 - Instruction: 'hd220a0d3
+LINE=   29 TIME=      20000	program counter = 'h8 - Instruction: 'h00900113
+LINE=   29 TIME=      20000	program counter = 'hc - Instruction: 'hd2212153
+LINE=   29 TIME=      20000	program counter = 'h10 - Instruction: 'h00500113
+LINE=   29 TIME=      20000	program counter = 'h14 - Instruction: 'hd22121d3
+LINE=   29 TIME=      20000	program counter = 'h18 - Instruction: 'h1a312153
+LINE=   29 TIME=      20000	program counter = 'h1c - Instruction: 'h02000113
+LINE=   29 TIME=      20000	program counter = 'h20 - Instruction: 'hd22121d3
+LINE=   29 TIME=      20000	program counter = 'h24 - Instruction: 'h1a1120c3
+LINE=   29 TIME=      20000	program counter = 'h28 - Instruction: 'h00103027
+LINE=   41 TIME=      20000	Finished running RV64IMD reference model
+LINE=  120 TIME=    1602000	Entering cpu_rf_compare task
+LINE=  128 TIME=    1602000		Correct value at cpu_rf['h0] = 'h0000000000000000
+LINE=  128 TIME=    1602000		Correct value at cpu_rf['h1] = 'h000000000000002a
+LINE=  128 TIME=    1602000		Correct value at cpu_rf['h2] = 'h0000000000000020
+LINE=  128 TIME=    1602000		Correct value at cpu_rf['h3] = 'h0000000000000000
+LINE=  128 TIME=    1602000		Correct value at cpu_rf['h4] = 'h0000000000000000
+LINE=  128 TIME=    1602000		Correct value at cpu_rf['h5] = 'h0000000000000000
+LINE=  128 TIME=    1602000		Correct value at cpu_rf['h6] = 'h0000000000000000
+LINE=  128 TIME=    1602000		Correct value at cpu_rf['h7] = 'h0000000000000000
+LINE=  128 TIME=    1602000		Correct value at cpu_rf['h8] = 'h0000000000000000
+LINE=  128 TIME=    1602000		Correct value at cpu_rf['h9] = 'h0000000000000000
+LINE=  128 TIME=    1602000		Correct value at cpu_rf['ha] = 'h0000000000000000
+LINE=  128 TIME=    1602000		Correct value at cpu_rf['hb] = 'h0000000000000000
+LINE=  128 TIME=    1602000		Correct value at cpu_rf['hc] = 'h0000000000000000
+LINE=  128 TIME=    1602000		Correct value at cpu_rf['hd] = 'h0000000000000000
+LINE=  128 TIME=    1602000		Correct value at cpu_rf['he] = 'h0000000000000000
+LINE=  128 TIME=    1602000		Correct value at cpu_rf['hf] = 'h0000000000000000
+LINE=  128 TIME=    1602000		Correct value at cpu_rf['h10] = 'h0000000000000000
+LINE=  128 TIME=    1602000		Correct value at cpu_rf['h11] = 'h0000000000000000
+LINE=  128 TIME=    1602000		Correct value at cpu_rf['h12] = 'h0000000000000000
+LINE=  128 TIME=    1602000		Correct value at cpu_rf['h13] = 'h0000000000000000
+LINE=  128 TIME=    1602000		Correct value at cpu_rf['h14] = 'h0000000000000000
+LINE=  128 TIME=    1602000		Correct value at cpu_rf['h15] = 'h0000000000000000
+LINE=  128 TIME=    1602000		Correct value at cpu_rf['h16] = 'h0000000000000000
+LINE=  128 TIME=    1602000		Correct value at cpu_rf['h17] = 'h0000000000000000
+LINE=  128 TIME=    1602000		Correct value at cpu_rf['h18] = 'h0000000000000000
+LINE=  128 TIME=    1602000		Correct value at cpu_rf['h19] = 'h0000000000000000
+LINE=  128 TIME=    1602000		Correct value at cpu_rf['h1a] = 'h0000000000000000
+LINE=  128 TIME=    1602000		Correct value at cpu_rf['h1b] = 'h0000000000000000
+LINE=  128 TIME=    1602000		Correct value at cpu_rf['h1c] = 'h0000000000000000
+LINE=  128 TIME=    1602000		Correct value at cpu_rf['h1d] = 'h0000000000000000
+LINE=  128 TIME=    1602000		Correct value at cpu_rf['h1e] = 'h0000000000000000
+LINE=  128 TIME=    1602000		Correct value at cpu_rf['h1f] = 'h0000000000000000
+LINE=  137 TIME=    1602000	Entering fpu_rf_compare task
+LINE=  149 TIME=    1602000		Correct value at fpu_rf['h0] = 'h0000000000000000, ULP = 'd0, 'h0000000000000000
+LINE=  149 TIME=    1602000		Correct value at fpu_rf['h1] = 'h405ae66666666665, ULP = 'd2, 'h405ae66666666667
+LINE=  149 TIME=    1602000		Correct value at fpu_rf['h2] = 'h3ffccccccccccccc, ULP = 'd1, 'h3ffccccccccccccd
+LINE=  149 TIME=    1602000		Correct value at fpu_rf['h3] = 'h4040000000000000, ULP = 'd0, 'h4040000000000000
+LINE=  149 TIME=    1602000		Correct value at fpu_rf['h4] = 'h0000000000000000, ULP = 'd0, 'h0000000000000000
+LINE=  149 TIME=    1602000		Correct value at fpu_rf['h5] = 'h0000000000000000, ULP = 'd0, 'h0000000000000000
+LINE=  149 TIME=    1602000		Correct value at fpu_rf['h6] = 'h0000000000000000, ULP = 'd0, 'h0000000000000000
+LINE=  149 TIME=    1602000		Correct value at fpu_rf['h7] = 'h0000000000000000, ULP = 'd0, 'h0000000000000000
+LINE=  149 TIME=    1602000		Correct value at fpu_rf['h8] = 'h0000000000000000, ULP = 'd0, 'h0000000000000000
+LINE=  149 TIME=    1602000		Correct value at fpu_rf['h9] = 'h0000000000000000, ULP = 'd0, 'h0000000000000000
+LINE=  149 TIME=    1602000		Correct value at fpu_rf['ha] = 'h0000000000000000, ULP = 'd0, 'h0000000000000000
+LINE=  149 TIME=    1602000		Correct value at fpu_rf['hb] = 'h0000000000000000, ULP = 'd0, 'h0000000000000000
+LINE=  149 TIME=    1602000		Correct value at fpu_rf['hc] = 'h0000000000000000, ULP = 'd0, 'h0000000000000000
+LINE=  149 TIME=    1602000		Correct value at fpu_rf['hd] = 'h0000000000000000, ULP = 'd0, 'h0000000000000000
+LINE=  149 TIME=    1602000		Correct value at fpu_rf['he] = 'h0000000000000000, ULP = 'd0, 'h0000000000000000
+LINE=  149 TIME=    1602000		Correct value at fpu_rf['hf] = 'h0000000000000000, ULP = 'd0, 'h0000000000000000
+LINE=  149 TIME=    1602000		Correct value at fpu_rf['h10] = 'h0000000000000000, ULP = 'd0, 'h0000000000000000
+LINE=  149 TIME=    1602000		Correct value at fpu_rf['h11] = 'h0000000000000000, ULP = 'd0, 'h0000000000000000
+LINE=  149 TIME=    1602000		Correct value at fpu_rf['h12] = 'h0000000000000000, ULP = 'd0, 'h0000000000000000
+LINE=  149 TIME=    1602000		Correct value at fpu_rf['h13] = 'h0000000000000000, ULP = 'd0, 'h0000000000000000
+LINE=  149 TIME=    1602000		Correct value at fpu_rf['h14] = 'h0000000000000000, ULP = 'd0, 'h0000000000000000
+LINE=  149 TIME=    1602000		Correct value at fpu_rf['h15] = 'h0000000000000000, ULP = 'd0, 'h0000000000000000
+LINE=  149 TIME=    1602000		Correct value at fpu_rf['h16] = 'h0000000000000000, ULP = 'd0, 'h0000000000000000
+LINE=  149 TIME=    1602000		Correct value at fpu_rf['h17] = 'h0000000000000000, ULP = 'd0, 'h0000000000000000
+LINE=  149 TIME=    1602000		Correct value at fpu_rf['h18] = 'h0000000000000000, ULP = 'd0, 'h0000000000000000
+LINE=  149 TIME=    1602000		Correct value at fpu_rf['h19] = 'h0000000000000000, ULP = 'd0, 'h0000000000000000
+LINE=  149 TIME=    1602000		Correct value at fpu_rf['h1a] = 'h0000000000000000, ULP = 'd0, 'h0000000000000000
+LINE=  149 TIME=    1602000		Correct value at fpu_rf['h1b] = 'h0000000000000000, ULP = 'd0, 'h0000000000000000
+LINE=  149 TIME=    1602000		Correct value at fpu_rf['h1c] = 'h0000000000000000, ULP = 'd0, 'h0000000000000000
+LINE=  149 TIME=    1602000		Correct value at fpu_rf['h1d] = 'h0000000000000000, ULP = 'd0, 'h0000000000000000
+LINE=  149 TIME=    1602000		Correct value at fpu_rf['h1e] = 'h0000000000000000, ULP = 'd0, 'h0000000000000000
+LINE=  149 TIME=    1602000		Correct value at fpu_rf['h1f] = 'h0000000000000000, ULP = 'd0, 'h0000000000000000
+LINE=  164 TIME=    1602000	Entering mem_data_compare task
+LINE=  179 TIME=    1602000		Correct value at mem['h0] = 'h405ae66666666665, ULP = 'd2
+LINE=  179 TIME=    1602000		Correct value at mem['h1] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h2] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h3] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h4] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h5] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h6] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h7] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h8] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h9] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['ha] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['hb] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['hc] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['hd] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['he] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['hf] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h10] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h11] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h12] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h13] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h14] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h15] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h16] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h17] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h18] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h19] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h1a] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h1b] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h1c] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h1d] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h1e] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h1f] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h20] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h21] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h22] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h23] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h24] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h25] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h26] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h27] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h28] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h29] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h2a] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h2b] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h2c] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h2d] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h2e] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h2f] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h30] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h31] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h32] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h33] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h34] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h35] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h36] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h37] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h38] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h39] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h3a] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h3b] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h3c] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h3d] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h3e] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h3f] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h40] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h41] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h42] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h43] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h44] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h45] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h46] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h47] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h48] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h49] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h4a] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h4b] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h4c] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h4d] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h4e] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h4f] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h50] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h51] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h52] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h53] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h54] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h55] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h56] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h57] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h58] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h59] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h5a] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h5b] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h5c] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h5d] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h5e] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h5f] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h60] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h61] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h62] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h63] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h64] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h65] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h66] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h67] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h68] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h69] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h6a] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h6b] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h6c] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h6d] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h6e] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h6f] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h70] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h71] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h72] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h73] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h74] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h75] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h76] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h77] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h78] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h79] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h7a] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h7b] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h7c] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h7d] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h7e] = 'h0000000000000000, ULP = 'd0
+LINE=  179 TIME=    1602000		Correct value at mem['h7f] = 'h0000000000000000, ULP = 'd0
+LINE=   38 TIME=    1602000	======== Finished comparing tasks with 0 error(s)========

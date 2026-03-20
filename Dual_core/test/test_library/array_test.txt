@@ -1,0 +1,43 @@
+# Problem 3: Integer array 1x3 * (4/7) using loop
+
+########################################
+# Step 1: Initialize integer array
+########################################
+
+addi x10, x0, 7
+sd   x10, 16(x0)         # arr[0] = 7
+
+addi x10, x0, 14
+sd   x10, 24(x0)         # arr[1] = 14
+
+addi x10, x0, 21
+sd   x10, 32(x0)         # arr[2] = 21
+
+########################################
+# Step 2: Prepare scalar = 4 / 7
+########################################
+
+addi x11, x0, 4
+fcvt.d.l f10, x11
+
+addi x11, x0, 7
+fcvt.d.l f11, x11
+
+fdiv.d f12, f10, f11     # f12 = 4/7
+
+########################################
+# Step 3: Loop multiply array elements
+########################################
+
+addi x13, x0, 16         # x13 = base address
+addi x14, x0, 3          # loop counter = 3
+
+loop_mul:
+    ld   x15, 0(x13)     # load integer
+    fcvt.d.l f13, x15    # convert to double
+    fmul.d f13, f13, f12 # multiply
+    fsd  f13, 0(x13)     # overwrite with double result
+
+    addi x13, x13, 8     # next element
+    addi x14, x14, -1
+    bne x14, x0, loop_mul
